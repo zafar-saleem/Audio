@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Audio API</title>
+	<!-- build:css styles/styles.min.css -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- /build -->
+</head>
+<body>
+	<p class="loading isVisible">loading...</p>
+	<div class="wrapper isHidden">
+		<div class="spriteContainer"></div>
+		<audio class="audioContainer" controls preload="auto">
+			<p>Sorry HTML5 Audio is not supported!</p>
+		</audio>
+	</div>
+	
+	<!-- build:js scripts/scripts.min.js -->
+	<script src="js/libs/requirejs/require.js"></script>
+    <script>
+        require(['js/config'], function () {
+            require(['main'], function (main) {
+            });
+        });
+    </script>
+	<!-- /build -->
+</body>
+</html>

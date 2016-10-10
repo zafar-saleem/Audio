@@ -1,0 +1,14 @@
+{
+  "name": "AudioTask",
+  "version": "0.0.0",
+  "homepage": "https://gitlab.com/zsaleem/AudioTask.git",
+  "authors": [
+    "Zafar Saleem"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "requirejs": null
+  }
+}

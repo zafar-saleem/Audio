@@ -1,0 +1,33 @@
+body {
+	font-family: Arial;
+	background-color: lightblue;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.spriteContainer {
+	width: 280px;
+	height: 456px;
+	margin: 0 auto;
+	background: url('../images/spritesheet.png') no-repeat;
+}
+
+.audioContainer {
+	display: block;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.loading {
+	
+}
+
+.isVisible {
+	display: block;
+}
+
+.isHidden {
+	display: none;
+}
